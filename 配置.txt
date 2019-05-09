@@ -1,0 +1,14 @@
+1.
+	git config --global user.name 'bigdamowang'
+2.
+	git config --global user.email '2602238994@qq.com'
+3.
+	git init
+4.
+	git remote add origin https://github.com/bigdamowang/hello-word.git
+5.本地的变化
+	git status
+6.同步
+	git add * 或 git commit -m 'first_commit'(本地生效)
+	git push -u origin master(远端)
+
