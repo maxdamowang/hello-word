@@ -1,5 +1,4 @@
 function MVVM(options) {
-    console.log("MVVM的this",this);
     this.$options = options || {};
     var data = this._data = this.$options.data;
     var me = this;
@@ -39,7 +38,6 @@ MVVM.prototype = {
     },
 
     _initComputed: function() {
-        console.log('_initComputed的this',this);
         var me = this;
         var computed = this.$options.computed;
         if (typeof computed === 'object') {
